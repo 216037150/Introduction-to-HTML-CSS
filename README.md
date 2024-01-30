@@ -15,7 +15,7 @@ There are three types of lists in HTML.
    
 -HTML Date and Time
    HTML elements can have extra information provided to them via HTML attributes. Here, we can provide the date or time in a manner that computers can comprehend by using the datetime attribute.
-   For example, $\<time datetime="2025-05-08">$May 8, 2025</time> is how we express it. The complete date does not need to be written out on the webpage. While time stamps on webpages sometimes utilize terms like "five 
+   For example, \<time datetime="2025-05-08"> May 8, 2025</time> is how we express it. The complete date does not need to be written out on the webpage. While time stamps on webpages sometimes utilize terms like "five 
    hours ago" or "ten days ago," the property actually uses the correct machine-readable version in the background. Highly uniform formats are preferred by machines, and the time element can also be used to denote 
     times. Numbers in the 24-hour clock format are preferred in the machine-readable version, and we have the option of include seconds and fractions of a second.
 -HTML Qoutes
