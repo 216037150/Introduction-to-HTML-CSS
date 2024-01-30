@@ -33,7 +33,7 @@
  Attributes and Event Attributes in HTML. This tag is not deprecated, but it is possible to achieve better results or nearly the same effect with CSS.
 
   # Unit 3: HTML Capabilities
-   - Troubleshooting and Debugging HTML Code
+   ## Troubleshooting and Debugging HTML Code
 
 
 
