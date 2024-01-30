@@ -9,7 +9,7 @@ There are three types of lists in HTML.
 1. ordered list \<ol>
    - The ordered list is used to represent data in a list for which the order of items has significance.
 2. unordered list \<ul>
- - The unordered list is used to represent data in a list for which the order of items does not matter
+   - The unordered list is used to represent data in a list for which the order of items does not matter
 3. definition list \<dl>
    -The HTML description list is used to represent data in the name-value form
    
