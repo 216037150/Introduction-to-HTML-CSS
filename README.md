@@ -32,7 +32,8 @@
  define smaller text, reducing font size. It decreases the font size by one size (from medium to small, from x-large to large). It has a display property of inline. The \<small> tag also supports the Global 
  Attributes and Event Attributes in HTML. This tag is not deprecated, but it is possible to achieve better results or nearly the same effect with CSS.
 
-  # Unit 3: Troubleshooting and Debugging HTML Code
+  # Unit 3: HTML Capabilities
+   - Troubleshooting and Debugging HTML Code
 
 
 
