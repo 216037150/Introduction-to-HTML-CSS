@@ -9,9 +9,9 @@
 1. ordered list \<ol>
    - The ordered list is used to represent data in a list for which the order of items has significance.
 2. unordered list \<ul>
-   - The unordered list is used to represent data in a list for which the order of items does not matter
+   - The unordered list is used to represent data in a list for which the order of items does not matter.
 4. definition list \<dl>
-   - The HTML description list is used to represent data in the name-value form
+   - The HTML description list is used to represent data in the name-value form.
    
 - HTML Date and Time
    HTML elements can have extra information provided to them via HTML attributes. Here, we can provide the date or time in a manner that computers can comprehend by using the datetime attribute.
