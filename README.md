@@ -2,7 +2,7 @@
 ## WEEK 1
 
 # Unit 1: Introduction 
-The web or browser programming consists of three parts (HTML, CSS, and JavaScrript), this combination allows the web or browser programming to be resilient to changes in technology. HTML stands for HyperText Markup Language. It is used to structure our webpage. It uses the opening and closing tags (less-than, and greater-than symbols). So far we have introduced some different tags including; p for writing paragraphs, em, i, b, and strong; these tags are used to emphasize or stress some information. We have also covered the tags for making heading h, the heading is named from \<h1, h2, h3, h4, h5, and h6>. Each headline \<h1, h2, h3, h4, h5, and h6> has a distinct visual effect. The h1 element is the largest and most prominent, while h6 is the smallest and least attention-grabbing. We have also covered the HTML list. 
+-The web or browser programming consists of three parts (HTML, CSS, and JavaScrript), this combination allows the web or browser programming to be resilient to changes in technology. HTML stands for HyperText Markup Language. It is used to structure our webpage. It uses the opening and closing tags (less-than, and greater-than symbols). So far we have introduced some different tags including; p for writing paragraphs, em, i, b, and strong; these tags are used to emphasize or stress some information. We have also covered the tags for making heading h, the heading is named from \<h1, h2, h3, h4, h5, and h6>. Each headline \<h1, h2, h3, h4, h5, and h6> has a distinct visual effect. The h1 element is the largest and most prominent, while h6 is the smallest and least attention-grabbing. We have also covered the HTML list. 
 
 -HTML LIST
 There are three types of lists in HTML.
@@ -22,7 +22,7 @@ There are three types of lists in HTML.
   To attributes the qoute we use tag \<cite> element, and to add distinguish from the sourounding text, we can wrap the whole thing in a blockqoute tag element
 
 # Unit 2: HTML fommating
- HTML formatting can be quite handly for structuring content. \<pre> is used for preformatted text, maintaining whitespaces and line break exactly as they are written in HTMLcode. \<br> is a linebreak tag, used 
+- HTML formatting can be quite handly for structuring content. \<pre> is used for preformatted text, maintaining whitespaces and line break exactly as they are written in HTMLcode. \<br> is a linebreak tag, used 
  to create a line break un the content. There is no opening or closing tag on the \<br> element, making it a simple tag. It only specifies where a line break should occur; it has nothing inside it. \<Pre> and \<code> elements are often combined to display a code block with proper indentation.
 
 - HTML Superscripts, Subscripts and Small Text
