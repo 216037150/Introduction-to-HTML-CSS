@@ -35,6 +35,7 @@
   # Unit 3: HTML Capabilities
   
 - Inspector
+  
     We can view the HTML and CSS of the webpage  with the Inspector tool, by right clicking the web page and select Inspect. We use it to see what CSS has been applied to each page element. Additionally, we may 
     preview updates to the HTML and CSS instantly, as they are mirrored in real time in the browser. When you reload the browser window, these modifications are reversed and become temporary. This is because HTML alone only provides the editing functionality; the back-end developers need to create a system for capturing and saving the new content. The process of saving content varies across different websites and is typically implemented in JavaScript. We can also use the HTML Inspector in the dev tools to debug mistakes.
  - HTML id Attribute:
@@ -42,6 +43,7 @@
      symbol followed by id.
 
 - HTML class Attribute:
+  
      The class attribute is used to specify one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain 
      tasks for elements with the specified class name. The class name in CSS stylesheet using “.” symbol
   
@@ -49,6 +51,7 @@
  clearly indicated by the "dir" element, which uses "LTR" for scripts that flow from left to right and "RTL" for scripts that flow from left to left. "lang" and "dir," two elements that are regarded as global 
  attributes, can be applied to any HTML element.
 - Arial role
+  
 ARIA Roles are similar to additional properties that we can apply to HTML components to enhance their meaning and facilitate browser comprehension. The intention is to avoid using ARIA Roles and instead rely on appropriate HTML elements to communicate the intended meaning of the content. But aspirations and reality don't always coincide, so occasionally the code needs to be modified to accommodate compromises. If these concessions make it difficult or impossible for persons with disabilities to utilize a website, then it becomes a serious issue. In fact, having a website that is inaccessible to those with impairments is illegal in many places.
 
 
