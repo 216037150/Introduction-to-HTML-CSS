@@ -91,6 +91,10 @@
   wrapped around specific words. However, links are not limited to just text; we can also wrap them around images or even more complex elements like teaser cards. This allows us to create a group of linked 
   elements.
 
+  While the simple HTTPS://example.com has been commonly used, URLs can be much more versatile. When linking to another website or a specific page on the web, you can include the entire URL. It does not matter if 
+ it has a trailing slash or not. These types of URLs are called absolute URLs because they point to a precise location on the web. In an absolute URL, the HTTP or HTTPS part must be included which stands for 
+ Hypertext Transport Protocol. This protocol defines the rules for communication on the web and is crucial for linking. The difference between HTTP and HTTPS. The "S" in HTTPS stands for Secure. In the past, all 
+ web addresses used to start with HTTP, but nowadays, experts recommend using HTTPS for enhanced security. When example.com is typed in a modern browser, it automatically adds the HTTPS:// part.
 
 
 
