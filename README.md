@@ -59,11 +59,16 @@ The accessibility tree functions similarly to a companion document (DOM) tree th
 The text that the screen reader will read is specified by an ARIA label that you add to the HTML. Put the ARIA label in this instance to "hello world." Furthermore, conceal. According to programmers, they enhance code readability by adding comments that explain its purpose. In HTML, comments are inserted by typing "\<!--" at the start and "\-->" at the end.According to programmers, they enhance code readability by adding comments that explain its purpose. In HTML, comments are inserted by typing "\<!--" at the start and "\-->" at the end.
 
 - Void element
-  Are self-clossing tags including image, break element.
+   Are self-clossing tags including image, break element.
 
-   One thing worth mentioning is the non-breaking space, which has a unique role. Usually, spaces in the text allow lines to break and words to remain intact. However, when there isn't enough space for a full sentence, the browser searches for a suitable spot to wrap the text. It looks for any regular space where words have a gap between them. Instead of using a regular space, we can use a special kind of space called a non-breaking space in HTML. This tells the browser not to break the line between two words. For instance, let's say we want to keep the first name "Lebron" and the last name "James" together in a sentence. We can use the code "&nbsp;" to insert a non-breaking space between the two names, ensuring they stay on the same line. 
+   One thing worth mentioning is the non-breaking space, which has a unique role. Usually, spaces in the text allow lines to break and words to remain intact. However, when there isn't enough space for a full 
+ sentence, the browser searches for a suitable spot to wrap the text. It looks for any regular space where words have a gap between them. Instead of using a regular space, we can use a special kind of space called 
+ a non-breaking space in HTML. This tells the browser not to break the line between two words. For instance, let's say we want to keep the first name "Lebron" and the last name "James" together in a sentence. We 
+ can use the code "&nbsp;" to insert a non-breaking space between the two names, ensuring they stay on the same line. 
 
-Another use of non-breaking spaces is to create multiple spaces between words. Normally, if you add multiple spaces in your HTML, the browser will only recognize the first one. But non-breaking spaces are not ignored by the browser, so if you include one, you can have two spaces between each sentence, for example. HTML character entities, including non-breaking spaces, provide a way to make sure the browser displays the specific characters you want on your webpage.
+  Another use of non-breaking spaces is to create multiple spaces between words. Normally, if you add multiple spaces in your HTML, the browser will only recognize the first one. But non-breaking spaces are not 
+ ignored by the browser, so if you include one, you can have two spaces between each sentence, for example. HTML character entities, including non-breaking spaces, provide a way to make sure the browser displays 
+ the specific characters you want on your webpage.
 
 # Unit 4: HTML Navigation and Linking
 
