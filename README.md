@@ -52,6 +52,10 @@
     These kinds of characteristics are common and give JavaScript browser APIs. we can use a short language code to define the language of the content with the "lang" the attribute. The direction of text flow is 
  clearly indicated by the "dir" element, which uses "LTR" for scripts that flow from left to right and "RTL" for scripts that flow from left to left. "lang" and "dir," two elements that are regarded as global 
  attributes, can be applied to any HTML element.
+- Arial role
+
+ARIA Roles are similar to additional properties that we can apply to HTML components to enhance their meaning and facilitate browser comprehension. The intention is to avoid using ARIA Roles and instead rely on appropriate HTML elements to communicate the intended meaning of the content. But aspirations and reality don't always coincide, so occasionally the code needs to be modified to accommodate compromises. If these concessions make it difficult or impossible for persons with disabilities to utilize a website, then it becomes a serious issue. In fact, having a website that is inaccessible to those with impairments is illegal in many places.
+
 
 
 
