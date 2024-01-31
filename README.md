@@ -41,7 +41,7 @@
  
   - HTML id Attribute:
     
-     The id attribute is a unique identifier that is used to specify the document. It is used by CSS and JavaScript to perform a certain task for a unique element. In CSS, the id attribute is written using the /# 
+     The id attribute is a unique identifier that is used to specify the document. It is used by CSS and JavaScript to perform a certain task for a unique element. In CSS, the id attribute is written using the # 
      symbol followed by id.
 
   - HTML class Attribute:
