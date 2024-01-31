@@ -83,6 +83,14 @@
 
 # Unit 4: HTML Navigation and Linking
 
+- HTML Link
+  
+   When we want to create a link, we use the A element, which stands for anchor. To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href 
+  stands for Hypertext Reference, a nerdy phrase from the past. Between the opening and closing A tags, we can place text or images, or both, to make them clickable. For example, we can turn the phrase "this is a 
+  link" into an actual link that takes us to example.com when clicked. By default, the A element is inline and can be placed within a paragraph or any other text. In the example, there is a paragraph with a link 
+  wrapped around specific words. However, links are not limited to just text; we can also wrap them around images or even more complex elements like teaser cards. This allows us to create a group of linked 
+  elements.
+
 
 
 
