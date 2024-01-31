@@ -65,6 +65,9 @@ The text that the screen reader will read is specified by an ARIA label that you
 
 Another use of non-breaking spaces is to create multiple spaces between words. Normally, if you add multiple spaces in your HTML, the browser will only recognize the first one. But non-breaking spaces are not ignored by the browser, so if you include one, you can have two spaces between each sentence, for example. HTML character entities, including non-breaking spaces, provide a way to make sure the browser displays the specific characters you want on your webpage.
 
+# Unit 4: HTML Navigation and Linking
+
+
 
 
 
