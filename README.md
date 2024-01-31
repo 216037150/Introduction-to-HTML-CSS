@@ -54,6 +54,10 @@
   
 ARIA Roles are similar to additional properties that we can apply to HTML components to enhance their meaning and facilitate browser comprehension. The intention is to avoid using ARIA Roles and instead rely on appropriate HTML elements to communicate the intended meaning of the content. But aspirations and reality don't always coincide, so occasionally the code needs to be modified to accommodate compromises. If these concessions make it difficult or impossible for persons with disabilities to utilize a website, then it becomes a serious issue. In fact, having a website that is inaccessible to those with impairments is illegal in many places.
 
+The accessibility tree functions similarly to a companion document (DOM) tree that the browser constructs from the content of the page. The accessibility tree is essential for assistive devices like screen readers, even though the DOM tree depicts the HTML structure. It enables them to give users an improved experience. It is evident from the accessibility tree that the content is treated as distinct text containers. But this can lead to a bad experience—for example, hearing the letter "hello" repeated out one by one. We can make this better by using ARIA.
+
+The text that the screen reader will read is specified by an ARIA label that you add to the HTML. Put the ARIA label in this instance to "hello world." Furthermore, conceal
+
 
 
 
