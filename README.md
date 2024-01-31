@@ -33,15 +33,21 @@
  Attributes and Event Attributes in HTML. This tag is not deprecated, but it is possible to achieve better results or nearly the same effect with CSS.
 
   # Unit 3: HTML Capabilities
+  
   - Inspector
     
     We can view the HTML and CSS of the webpage  with the Inspector tool, by right clicking the web page and select Inspect. We use it to see what CSS has been applied to each page element. Additionally, we may 
-    preview updates to the HTML and CSS instantly, as they are mirrored in real time in the browser. When you reload the browser window, these modifications are reversed and become temporary.
+    preview updates to the HTML and CSS instantly, as they are mirrored in real time in the browser. When you reload the browser window, these modifications are reversed and become temporary. We can also use the HTML Inspector in the dev tools to debug mistakes.
  
   - HTML id Attribute:
     
      The id attribute is a unique identifier that is used to specify the document. It is used by CSS and JavaScript to perform a certain task for a unique element. In CSS, the id attribute is written using the /# 
      symbol followed by id.
+
+  - HTML class Attribute:
+  
+     The class attribute is used to specify one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain 
+     tasks for elements with the specified class name. The class name in CSS stylesheet using “.” symbol
 
 
 
