@@ -49,6 +49,11 @@
      The class attribute is used to specify one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain 
      tasks for elements with the specified class name. The class name in CSS stylesheet using “.” symbol
 
+    These kinds of characteristics are common and give JavaScript browser APIs. we can use a short language code to define the language of the content with the "lang" the attribute. The direction of text flow is 
+ clearly indicated by the "dir" element, which uses "LTR" for scripts that flow from left to right and "RTL" for scripts that flow from left to left. "lang" and "dir," two elements that are regarded as global 
+ attributes, can be applied to any HTML element.
+
+
 
 
 
