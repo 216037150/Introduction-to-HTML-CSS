@@ -85,20 +85,24 @@
 
 - HTML Link
   
-   When we want to create a link, we use the A element, which stands for anchor. To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href 
+   When we want to create a link, we use the A element, which stands for anchor. To do this, we need to add a href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href 
   stands for Hypertext Reference, a nerdy phrase from the past. Between the opening and closing A tags, we can place text or images, or both, to make them clickable. For example, we can turn the phrase "this is a 
   link" into an actual link that takes us to example.com when clicked. By default, the A element is inline and can be placed within a paragraph or any other text. In the example, there is a paragraph with a link 
   wrapped around specific words. However, links are not limited to just text; we can also wrap them around images or even more complex elements like teaser cards. This allows us to create a group of linked 
   elements.
 
   While the simple HTTPS://example.com has been commonly used, URLs can be much more versatile. When linking to another website or a specific page on the web, you can include the entire URL. It does not matter if 
- it has a trailing slash or not. These types of URLs are called absolute URLs because they point to a precise location on the web. In an absolute URL, the HTTP or HTTPS part must be included which stands for 
+ it has a trailing slash or not. These types of URLs are called absolute URLs because they point to a precise location on the web. In an absolute URL, the HTTP or HTTPS port must be included which stands for 
  Hypertext Transport Protocol. This protocol defines the rules for communication on the web and is crucial for linking. The difference between HTTP and HTTPS. The "S" in HTTPS stands for Secure. In the past, all 
  web addresses used to start with HTTP, but nowadays, experts recommend using HTTPS for enhanced security. When example.com is typed in a modern browser, it automatically adds the HTTPS:// part.
 
 
 # Unit 5: HTML Working with Graphics and Images
-- Image tag is a void element, meaning it does not required the classing tag, they are normal known as self clossing tag.
+- Image tag is a void element, meaning it does not require the classing tag, they are normally known as self-closing tag.
+- Each image should include four essential attributes. Initially, there's the source attribute (SRC), indicating the image file to load. Following that is the alt attribute (ALT), supplying a textual depiction of the image. Lastly, the width and height attributes define the image's dimensions. Therefore, every image must incorporate these four attributes.
+
+Referring to Figure 51: Working with an image element, the image's URL is inserted into the source attribute, as illustrated in the example, initiating the image loading process. However, the process isn't complete. Adding an ALT attribute is essential, serving as a substitute for the image in situations where it's not visible. For instance, individuals with visual impairments may utilize a screen reader that vocalizes the ALT text to them.
+
 
 
 
