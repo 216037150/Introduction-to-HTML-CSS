@@ -97,6 +97,10 @@
  web addresses used to start with HTTP, but nowadays, experts recommend using HTTPS for enhanced security. When example.com is typed in a modern browser, it automatically adds the HTTPS:// part.
 
 
+# Unit 5: HTML Working with Graphics and Images
+- Image tag is a void element, meaning it does not required the classing tag, they are normal known as self clossing tag.
+
+
 
 
 
