@@ -101,7 +101,7 @@
 - Image tag is a void element, meaning it does not require the classing tag, they are normally known as self-closing tag.
 - Each image should include four essential attributes. Initially, there's the source attribute (SRC), indicating the image file to load. Following that is the alt attribute (ALT), supplying a textual depiction of the image. Lastly, the width and height attributes define the image's dimensions. Therefore, every image must incorporate these four attributes.
 
-Referring to Figure 51: Working with an image element, the image's URL is inserted into the source attribute, as illustrated in the example, initiating the image loading process. However, the process isn't complete. Adding an ALT attribute is essential, serving as a substitute for the image in situations where it's not visible. For instance, individuals with visual impairments may utilize a screen reader that vocalizes the ALT text to them.
+Referring to Figure 51: Working with an image element, the image's URL is inserted into the source attribute, as illustrated in the example, initiating the image loading process. However, the process isn't complete. Adding an ALT attribute is essential, serving as a substitute for the image in situations where it's not visible. For instance, individuals with visual impairments may utilize a screen reader that vocalizes the ALT text to them. t does not matter whether the height or the width is specified first. In HTML, the order of attributes within an element can be whatever you prefer.
 
 
 
