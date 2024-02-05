@@ -104,6 +104,19 @@
 Referring to Figure 51: Working with an image element, the image's URL is inserted into the source attribute, as illustrated in the example, initiating the image loading process. However, the process isn't complete. Adding an ALT attribute is essential, serving as a substitute for the image in situations where it's not visible. For instance, individuals with visual impairments may utilize a screen reader that vocalizes the ALT text to them. t does not matter whether the height or the width is specified first. In HTML, the order of attributes within an element can be whatever you prefer.
 
 
+# Unit 6: Working With Media
+- Audio
+ The audio element has an opening tag and a closing tag, which sets it apart from the image element. This increases its strength and flexibility and gives it a more modern look.
+   We supply the audio file's URL using a source attribute, just like we do with the image element. You may be wondering why the audio element has an opening and closing tag. That's because, like the picture element, the source element can be used to provide numerous audio files. Furthermore, it is possible to provide fallback text within the audio element, which will only be displayed if the browser does not understand the audio element at all. This demonstrates the resilience of HTML, where a single set of code can cater to a wide variety of browsers and provide a suitable user experience. The audio element is an excellent tool for embedding audio files and a player on a webpage.
+
+- Working With Video
+   the video element has an opening and closing tag. To display a video, use the source attribute to specify the video file. And if the controls attribute is added, the browser will automatically create a video player. Sounds simple right? But there are a couple of issues that need to be addressed. The first problem has to do with video encoding. Modern browsers support MP3s by default, although OGG had some benefits but never really took off. Though it's not yet generally accessible, a new format that resembles the AV1 video file format might be on the future. Because of this, there isn't currently a second audio format that is advised. Nevertheless, as it was vital in the past and will probably be again soon, it is critical to comprehend the syntax for supporting numerous formats.
+
+
+- Working With Captions and Subtitles
+   To display these captions on the video, insert a track element within the video element. Similar to the source element, it is one of the options the browser uses to render the video player. On the track element, use the source attribute to specify the file, the kind attribute to indicate that it contains captions, and a label attribute to display the caption option as "English" in the player. Additionally, use the source lang attribute to indicate the language and add a default attribute to make this track the default choice when captions are enabled.  
+
+
 
 
 
