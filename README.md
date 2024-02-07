@@ -124,7 +124,9 @@ div and span. If you've got worked as a developer writing HTML, chances are you 
 - Example
 
 \<!DOCTYPE html>
+
 \<html>
+
 \<body>
 
 \<h1>The span element</h1>
@@ -132,6 +134,7 @@ div and span. If you've got worked as a developer writing HTML, chances are you 
 \<p>My mother has \<span style="color:blue;font-weight:bold">blue\</span> eyes and my father has \<span style="color:darkolivegreen;font-weight:bold">dark green\</span> eyes.\</p>
 
 \</body>
+
 \</html>
 
 
