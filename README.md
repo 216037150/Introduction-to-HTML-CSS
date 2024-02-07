@@ -146,14 +146,18 @@ div and span. If you've got worked as a developer writing HTML, chances are you 
 \<head>
   
 \<style>
+
 .myDiv {
   border: 5px outset red;
   background-color: lightblue;    
   text-align: center;
 }
 
+
 \</style>
+
 \</head>
+
 \<body>
 
 \<h1>The div element\</h1>
