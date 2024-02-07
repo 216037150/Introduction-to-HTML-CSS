@@ -148,8 +148,11 @@ div and span. If you've got worked as a developer writing HTML, chances are you 
 \<style>
 
 .myDiv {
+
   border: 5px outset red;
-  background-color: lightblue;    
+  
+  background-color: lightblue; 
+  
   text-align: center;
 }
 
