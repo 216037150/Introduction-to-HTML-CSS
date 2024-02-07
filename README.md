@@ -121,7 +121,7 @@ Referring to Figure 51: Working with an image element, the image's URL is insert
 - Different HTML components have as of now been secured for diverse purposes but what approximately those occurrences when an component is required that does not exist? Now and then we basically require a strategy to bunch components or highlight a express. Other times, we got to target a particular portion of the DOM with CSS or Javascript, indeed on the off chance that there's no genuine meaning behind it. In such cases, we have two trusty components at our transfer:
 div and span. If you've got worked as a developer writing HTML, chances are you have got come over these components some time recently Before 2010, when HTML5 came along side its supportive semantic components, we depended intensely on divs for all sorts of purposes. Divs were utilized to make segments, sidebars, and everything in between. Individuals still tend to utilize divs and ranges too much in HTML, without much else. This course points the esteem of semantic HTML. Div is a block-level element, while span is an inline element. They essentially do nothing until CSS or Javascript is applied to them.
 
-- Example
+- Example: Span Element
 
 \<!DOCTYPE html>
 
@@ -136,6 +136,37 @@ div and span. If you've got worked as a developer writing HTML, chances are you 
 \</body>
 
 \</html>
+
+- Example: Div Element
+
+  \<!DOCTYPE html>
+ \<html>
+  
+\<head>
+  
+\<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+
+\</style>
+\</head>
+\<body>
+
+\<h1>The div element\</h1>
+
+\<div class="myDiv">
+  \<h2>This is a heading in a div element\</h2>
+  \<p>This is some text in a div element.\</p>
+\</div>
+
+\<p>This is some text outside the div element.\</p>
+
+\</body>
+\</html>
+
 
 
 
