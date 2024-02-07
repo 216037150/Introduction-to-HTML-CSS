@@ -117,7 +117,7 @@ Referring to Figure 51: Working with an image element, the image's URL is insert
    To display these captions on the video, insert a track element within the video element. Similar to the source element, it is one of the options the browser uses to render the video player. On the track element, use the source attribute to specify the file, the kind attribute to indicate that it contains captions, and a label attribute to display the caption option as "English" in the player. Additionally, use the source lang attribute to indicate the language and add a default attribute to make this track the default choice when captions are enabled.  
 
 
-#Unit 6: HTML Generic Element
+# Unit 7: HTML Generic Element
 
 - Different HTML components have as of now been secured for distinctive purposes but what almost those occasions when an component is required that does not exist?
    In some cases we essentially require a strategy to bunch components or highlight a express. Other times, we got to target a particular portion of the DOM with CSS or Javascript, indeed in the event that there's no genuine meaning behind it. In such cases, we have two trusty components at our transfer:
