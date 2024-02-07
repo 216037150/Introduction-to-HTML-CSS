@@ -138,8 +138,7 @@ div and span. If you've got worked as a developer writing HTML, chances are you 
 \</html>
 
 - Example: Div Element
-
-  \<!DOCTYPE html>
+ \<!DOCTYPE html>
  \<html>
   
 \<head>
