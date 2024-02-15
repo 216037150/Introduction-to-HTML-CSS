@@ -292,7 +292,20 @@ Include a bit of styling and CSS to make the table look more like a table of you
 ![image](https://github.com/216037150/Introduction-to-HTML-CSS/assets/52372746/2de46e68-90c8-428d-8c69-ae0b1353490d)
 
 
-\<table class="styled"> <tr> <th> Name </th> <th> Phone </th> </tr> <tr> <td> Bill LaVarre </td> <td> 555-2987 </td> </tr> <tr> <td> Waymon LaVarre </td> <td> 555-4673 </td> </tr> </table>
+\<table class="styled"> 
+\<tr> 
+\<th> Name \</th> 
+\<th> Phone \</th>
+\</tr>
+\<tr> 
+  \<td> Bill LaVarre \</td>
+  \<td> 555-2987 \</td>
+\</tr>
+\<tr>
+  \<td> Waymon LaVarre \</td>
+  \<td> 555-4673 \</td>
+\</tr>
+\</table>
 
 
 
