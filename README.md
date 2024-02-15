@@ -246,34 +246,34 @@ To enhance the form for newsletter sign-up, specify input types for the name and
 . Proper semantic HTML elements can be used in forms to style them, creating a custom look and feel. 
 
 
-\<form>
-    \<label for="name">Name:</label>
-    \<input type="text" id="name" name="name" required placeholder="Enter your name">
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your name">
 
-    \<label for="email">Email:</label>
-    \<input type="email" id="email" name="email" required placeholder="Enter your email">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email">
 
-    \<label for="password">Password:</label>
-    \<input type="password" id="password" name="password" required placeholder="Enter your password">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required placeholder="Enter your password">
 
-    \<label for="search">Search:</label>
-    \<input type="search" id="search" name="search" placeholder="Search here">
+    <label for="search">Search:</label>
+    <input type="search" id="search" name="search" placeholder="Search here">
 
-    \<label for="phone">Phone Number:</label>
-    \<input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
 
-    \<label for="message">Message:</label>
-    \<textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea>
 
-    \<label for="birthdate">Birthdate:</label>
-    \<input type="date" id="birthdate" name="birthdate" required>
+    <label for="birthdate">Birthdate:</label>
+    <input type="date" id="birthdate" name="birthdate" required>
 
-    \<label for="color">Favorite Color:</label>
-    \<input type="color" id="color" name="color">
+    <label for="color">Favorite Color:</label>
+    <input type="color" id="color" name="color">
 
-    \<label for="file">Upload Image:</label>
-    \<input type="file" id="file" name="file" accept="image/*" multiple>
-    \<p>Yes, allow multiple files.</p>
+    <label for="file">Upload Image:</label>
+    <input type="file" id="file" name="file" accept="image/*" multiple>
+    <p>Yes, allow multiple files.</p>
 
     <button type="submit">Submit</button>
 </form>
