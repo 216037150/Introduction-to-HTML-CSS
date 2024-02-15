@@ -281,6 +281,12 @@ To enhance the form for newsletter sign-up, specify input types for the name and
 # Unit: 10 Organizing Tabular Information in HTML
 
 
+** We start with a table element to mark the beginning of the table and close it at the end. This table has six rows, five rows about five different birds, and a top row which contains the header for each column. In the HTML we use the TR element to markup each row. Six pairs of TR opening and closing tags make six rows. Then put the content inside of each row. Start with the American goldfinch. 
+
+Use the TD element to wrap a cell of content, American goldfinch, yellow, eats mostly seeds, and the image with an image element. You can put any HTML markup inside of these cells e.g. paragraphs, videos and headlines. There are four columns in this table, which means four cells of data in each row. Fill in all the rest of the birds. 
+
+Include a bit of styling and CSS to make the table look more like a table of your choice instead of the default styling that a browser uses. But what about that header? Well, we put the content for the header in the first row, wrapping each one in a TH element instead of a TD element. TD stands for table data, while TH stands for table header. Bird, color, diet, photo**
+
 
 
 
