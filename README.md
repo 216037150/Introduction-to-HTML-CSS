@@ -321,6 +321,13 @@ Include a bit of styling and CSS to make the table look more like a table of you
 \</table>
 
 
+# Week 5: Understanding Types in CSS
+
+Generally speaking, non-designers divide typefaces into two categories: 
+1. Sans serif 
+2.  serif. 
+
+Small lines known as serifs are found at the extremities of the letters in serif fonts. In the past, printed products with lengthy text blocks were composed using serif typefaces. Letters were never precisely aligned when they were manually positioned on a printing press. The text was simpler to read because of the serifs that connected the letters. Sans serif typefaces, on the other hand, lack serifs and seem more contemporary. Sans serif fonts are primarily utilized on the web for longer text when computer typesetting because they have a clean, readable appearance. What typeface is therefore the standard web font? Well, it is usually Times New Roman, but not always. 
 
 
 
