@@ -330,6 +330,10 @@ Generally speaking, non-designers divide typefaces into two categories:
 Small lines known as serifs are found at the extremities of the letters in serif fonts. In the past, printed products with lengthy text blocks were composed using serif typefaces. Letters were never precisely aligned when they were manually positioned on a printing press. The text was simpler to read because of the serifs that connected the letters. Sans serif typefaces, on the other hand, lack serifs and seem more contemporary. Sans serif fonts are primarily utilized on the web for longer text when computer typesetting because they have a clean, readable appearance. What typeface is therefore the standard web font? Well, it is usually Times New Roman, but not always. 
 
 
+- Two types of sizing
+
+There are two kinds of sizing in web design: absolute and relative. Points and pixels are examples of absolute sizes that don't change with screen size. Conversely, relative units like R-E-M (pronounced "rem") or percentages can change according on the size of the page. The font sizes that use relative units scale proportionately with the rest of the page when I zoom in. For greater flexibility, web designers so frequently favor the use of relative units.
+
 
 
 
