@@ -349,6 +349,7 @@ Variables allow computers to store and manipulate data in a dynamic fashion. The
 Variables are similar to the x and y variables you use in mathematics, which means they're a simple name to represent the data we want to refer to. Computer variables differ from mathematical variables in that they can store different values at different times.
 
 We tell JavaScript to create or declare a variable by putting the keyword var in front of it, like so:
+Storing a value in a variable is called variable initialization.
  
 
 
