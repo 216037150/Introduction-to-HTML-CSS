@@ -334,7 +334,11 @@ Small lines known as serifs are found at the extremities of the letters in serif
 
 There are two kinds of sizing in web design: absolute and relative. Points and pixels are examples of absolute sizes that don't change with screen size. Conversely, relative units like R-E-M (pronounced "rem") or percentages can change according on the size of the page. The font sizes that use relative units scale proportionately with the rest of the page when I zoom in. For greater flexibility, web designers so frequently favor the use of relative units.
 
-#Week: 6 Introduction to JavaScript
+
+
+## WEEK 6
+##  Introduction to JavaScript
+
 
 In computer science, data is anything that is meaningful to the computer. JavaScript provides eight different data types which are undefined, null, boolean, string, symbol, bigint, number, and object.
 
