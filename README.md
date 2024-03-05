@@ -336,7 +336,7 @@ There are two kinds of sizing in web design: absolute and relative. Points and p
 
 
 
-Week: 3 Introduction to JavaScript
+Week: 6 Introduction to JavaScript
 
 In computer science, data is anything that is meaningful to the computer. JavaScript provides eight different data types which are undefined, null, boolean, string, symbol, bigint, number, and object.
 
