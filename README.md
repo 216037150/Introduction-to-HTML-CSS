@@ -336,7 +336,7 @@ There are two kinds of sizing in web design: absolute and relative. Points and p
 
 
 
-## Introduction to JavaScript: 
+# Introduction to JavaScript: 
 ##  WEEK 1: 
 
 
