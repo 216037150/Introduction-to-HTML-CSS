@@ -336,7 +336,7 @@ There are two kinds of sizing in web design: absolute and relative. Points and p
 
 
 
-## WEEK 6
+## WEEK 1: 
 ##  Introduction to JavaScript
 
 
@@ -351,6 +351,9 @@ Variables are similar to the x and y variables you use in mathematics, which mea
 We tell JavaScript to create or declare a variable by putting the keyword var in front of it, like so:
 Storing a value in a variable is called variable initialization.
  
+## WEEK 2: 
+##  Introduction to JavaScript
+### Web Design
 
 
 
