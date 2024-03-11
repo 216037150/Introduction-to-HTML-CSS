@@ -337,7 +337,7 @@ There are two kinds of sizing in web design: absolute and relative. Points and p
 
 
 # Introduction to JavaScript: 
-##  WEEK 1: 
+##  WEEK 1: Basic Syntax
 
 
 In computer science, data is anything that is meaningful to the computer. JavaScript provides eight different data types which are undefined, null, boolean, string, symbol, bigint, number, and object.
@@ -351,9 +351,7 @@ Variables are similar to the x and y variables you use in mathematics, which mea
 We tell JavaScript to create or declare a variable by putting the keyword var in front of it, like so:
 Storing a value in a variable is called variable initialization.
  
-## WEEK 2: 
-##  Introduction to JavaScript
-### Web Design
+## WEEK 2:  Web Design
 
 
 
