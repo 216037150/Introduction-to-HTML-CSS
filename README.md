@@ -376,6 +376,12 @@ Numeric Conversion 
 
 Numeric conversion happens in mathematical functions and expressions automatically.  
 
+# JavaScript Number Format: Summary  
+
+    JavaScript number format can be changed through various methods into multiple different values.  
+    Most popular methods are Number(), parseInt(), and parseFloat().  
+    If you want JavaScript to convert to integer, you should use parseInt() method.  
+    Each time JavaScript converts to integer, it returns a new value instead of rewriting the old one. 
 
 
 
