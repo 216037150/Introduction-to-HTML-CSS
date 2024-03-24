@@ -384,7 +384,85 @@ Numeric conversion happens in mathematical functions and expressions automatical
     Each time JavaScript converts to integer, it returns a new value instead of rewriting the old one. 
 
 
+### DOM
 
+The Document Object Model and JavaScript Syntax
+
+The Document Object Model is an Application Programming Interface (API) for HTML and XML documents. It does two things for web developers: 
+
+        Provides a structural representation of the document
+        Defines the way that that structure is to be accessed from script
+
+This allows you to get at the web page as a structured group of nodes. Essentially, it connects web pages to scripts or programming languages.
+
+The JavaScript syntax has to do with objects. To access an object, property, or method, its reference must include every object that contains it, separated by a dot. This is called the "dot syntax".
+
+Let us define the terms introduced above:
+
+    Object 
+
+a JavaScript object is any scriptable HTML element, that is, any HTML element within a document that may be accessed through the JavaScript language. Although the browser window is not an HTML element, it too is a scriptable object.
+
+Outside the context of a web page are core objects. These objects are not associated with HTML elements, but with the language itself. Then there are the homemade objects. Core objects and Home made objects are both associated with the JavaScript Object Model. 
+
+The following are some of the JavaScript objects:
+
+                window
+                document
+                form
+                image
+        Property
+        Objects have properties, which you can think of as characteristics of an object. A JavaScript property has a similar relationship to the object it belongs to that an HTML tag attribute has to the tag that contains it. For example, the JavaScript "value" property is to a text field object as the HTML "width" attribute is to a table tag.
+
+There is one major exception: JavaScript properties can also be objects. In that case, the object-property relationship is more like the relationship an <option> tag has to the <select> tag that contains it. But in JavaScript, there is no difference in how you refer to a plain old property and a property that is also an object. 
+
+A document, although contained by the window and therefore a property of the window object, is also considered an object. The same is true for a form and an image - they are properties of the document object but also objects themselves. The rule for the dual identities is this: a property is also an object if that property has its own properties and methods. It is best to think of objects which are also properties as objects - that way it is clear what you may and may not do with them.
+
+        Method
+        Methods are actions that can be applied directly to objects. Within a web page, methods cause a boring old HTML document to react to the end user. This results in a meaningful experience for the end user which would otherwise be completely one-sided.
+
+Method Parameters
+
+Syntactically speaking, methods are signified by parenthesis immediately following their name, e.g. "alert()". These parenthesis sometimes hold values called parameters, which are required by some methods. 
+
+A parameter is simply information needed by a method in order to accomplish its task. For instance, the alert() method pops up an alert box. Without a parameter, the alert method will generate a dialog box (using Internet Explorer) alert() which is meaningless. But with a parameter, the alert method will generate a dialog box alert("Hello World") which communicates a message to the end user. 
+
+Here are a Few JavaScript Methods:
+
+        alert() causes an alert dialog box to appear over the page that launched it
+        write() writes content to a page
+        focus() causes the mouse cursor to be inserted into a form element
+
+Notice the parenthesis following the above methods? That is how you distinguish a method from a property or object
+
+NB: Please note that these definitions are given in the context of Web programming. They may also be loosely be used to define the terms in Java as well.
+Core APIs in the DOM
+
+document and window objects are the objects whose interfaces you generally use most often in DOM programming. In simple terms, the window object represents something like the browser, and the document object is the root of the document itself. Element inherits from the generic Node interface, and together these two interfaces provide many of the methods and properties you use on individual elements. 
+
+The following is a brief list of common APIs in web and XML page scripting using the DOM.
+
+        document.getElementById(id)
+        document.getElementsByTagName(name)
+        document.createElement(name)
+        parentNode.appendChild(node)
+        element.innerHTML
+        element.style.left
+        element.setAttribute
+        element.getAttribute
+        element.addEventListener
+        window._content
+        window.onload
+        window.dump()
+        window.scrollTo()
+
+Let us look at the window object for example. Since most of the objects belonging to a web page are contained by the document object, path references almost always include the document object. But since the document is contained by the window object, why is the window reference left off in JavaScript code? 
+
+The window reference is the only exception to the complete object containment hierarchy reference rule. Since the window object is at the top of the object hierarchy, it is assumed. In the case where a method is shared by the window object and another object, omitting it asserts the assumption that it is being invoked on the window object. 
+
+Most of the time, the containment structure is obvious. 
+
+Now let's  take a look at the DOM structure
 
   
 
