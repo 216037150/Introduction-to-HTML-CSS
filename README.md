@@ -353,6 +353,29 @@ Storing a value in a variable is called variable initialization.
  
 ## WEEK 2:  Web Design
 
+Most of the time, operators and functions automatically convert the values given to them to the right type.  For example, alert automatically converts any value to a string to show it. Mathematical operations convert values to numbers. There are also cases when we need to explicitly convert a value to the expected type.  
+String Conversion
+
+String conversion happens when we need the string form of a value.  
+
+For example, alert(value) does it to show the value.  
+
+We can also call the String(value) function to convert a value to a string: 
+
+let value = true; 
+
+alert(typeof value); // boolean  
+
+value = String(value); // now value is a string "true"  
+
+alert(typeof value); // string  
+
+
+String conversion is mostly obvious. A false becomes "false", null becomes "null", etc. 
+Numeric Conversion  
+
+Numeric conversion happens in mathematical functions and expressions automatically.  
+
 
 
 
