@@ -468,5 +468,9 @@ Now let's  take a look at the DOM structure
 A function is a subprogram designed to perform a particular task. A function will only execute if and only when it has been called (invoking a function). Values can be passed into functions and used within that function as well. All functions have a return value, otherwise they become undefined (value is unknown). Most importantly, you must know that a function is an object (an HTML element, with properties and methods.
 
   
+The Focus Event (onfocus)
 
+The focus event occurs when the user gives focus to an element on a web page. You can handle the focus event with the onfocus event handler. The following example will highlight the background of text input in yellow color when it receives the focus.
+
+code snippet
 
