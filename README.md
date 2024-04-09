@@ -414,7 +414,7 @@ The following are some of the JavaScript objects:
                 form
                 image
         Property
-        Objects have properties, which you can think of as characteristics of an object. A JavaScript property has a similar relationship to the object it belongs to that an HTML tag attribute has to the tag that contains it. For example, the JavaScript "value" property is to a text field object as the HTML "width" attribute is to a table tag.
+        Objects have properties, which you can think of as characteristics of an object. A JavaScript property has a similar relationship to the object it belongs to that an HTML tag attribute has to the tag that contains it. For example, the     JavaScript "value" property is to a text field object as the HTML "width" attribute is to a table tag.
 
 There is one major exception: JavaScript properties can also be objects. In that case, the object-property relationship is more like the relationship an <option> tag has to the <select> tag that contains it. But in JavaScript, there is no difference in how you refer to a plain old property and a property that is also an object. 
 
@@ -458,8 +458,8 @@ The following is a brief list of common APIs in web and XML page scripting using
         window.dump()
         window.scrollTo()
 
-  Let us look at the window object for example. Since most of the objects belonging to a web page are contained by the document object, 
-  path references almost always include the document object. But since the document is contained by the window object, why is the window reference left off in     JavaScript code? 
+    Let us look at the window object for example. Since most of the objects belonging to a web page are contained by the document object, 
+    path references almost always include the document object. But since the document is contained by the window object, why is the window reference left off in     JavaScript code? 
 
 
   The window reference is the only exception to the complete object containment hierarchy reference rule. Since the window object is 
@@ -484,5 +484,12 @@ Now let's  take a look at the DOM structure
 
   ![image](https://github.com/216037150/Introduction-to-HTML-CSS/assets/52372746/63d1603f-7460-40c8-946d-e893ef791655)
 
-# HTML and CSS
-## WEEK 1
+# Unit 4: HTML Navigation and Linking
+
+- HTML Link
+  
+   When we want to create a link, we use the A element, which stands for anchor. To do this, we need to add a href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href 
+  stands for Hypertext Reference, a nerdy phrase from the past. Between the opening and closing A tags, we can place text or images, or both, to make them clickable. For example, we can turn the phrase "this is a 
+  link" into an actual link that takes us to example.com when clicked. By default, the A element is inline and can be placed within a paragraph or any other text. In the example, there is a paragraph with a link 
+  wrapped around specific words. However, links are not limited to just text; we can also wrap them around images or even more complex elements like teaser cards. This allows us to create a group of linked 
+  elements
