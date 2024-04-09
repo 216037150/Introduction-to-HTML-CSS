@@ -485,6 +485,5 @@ The following example will highlight the background of text input in yellow colo
 
 ![image](https://github.com/216037150/Introduction-to-HTML-CSS/assets/52372746/63d1603f-7460-40c8-946d-e893ef791655)
 
-
-## Node.js
-# Week 1: Introduction to Node.js
+# HTML and CSS
+## WEEK 1
