@@ -222,8 +222,10 @@ Article -  An article often starts with a title, subtitle, author's name, and pu
 section -  The section element is used to mark sections of content. For example, in a long essay with subheadings, each segment can be wrapped in a section element. It is also useful for dividing different topic zones on 
          a website. Each section typically starts with its own headline.
 
-Aside -  Lastly, the aside element is for content that is off to the side, like sidebar information or additional details that accompany an article but are not part of its main flow. Advertisements can also be marked as 
-         an aside. Although the position on the page does not matter, the semantic meaning of these elements is crucial. The visual layout often conveys meaning, and these HTML elements help transfer that meaning from 
+Aside -  Lastly, the aside element is for content that is off to the side, like sidebar information or additional details that
+          accompany an article but are not part of its main flow. Advertisements can also be marked as 
+         an aside. Although the position on the page does not matter, the semantic meaning of these elements is crucial.
+         The visual layout often conveys meaning, and these HTML elements help transfer that meaning from 
          the design to the content.       
 
 
@@ -456,16 +458,24 @@ The following is a brief list of common APIs in web and XML page scripting using
         window.dump()
         window.scrollTo()
 
-Let us look at the window object for example. Since most of the objects belonging to a web page are contained by the document object, path references almost always include the document object. But since the document is contained by the window object, why is the window reference left off in JavaScript code? 
+  Let us look at the window object for example. Since most of the objects belonging to a web page are contained by the document object, 
+  path references almost always include the document object. But since the document is contained by the window object, why is the window reference left off in     JavaScript code? 
 
-The window reference is the only exception to the complete object containment hierarchy reference rule. Since the window object is at the top of the object hierarchy, it is assumed. In the case where a method is shared by the window object and another object, omitting it asserts the assumption that it is being invoked on the window object. 
 
-Most of the time, the containment structure is obvious. 
+  The window reference is the only exception to the complete object containment hierarchy reference rule. Since the window object is 
+    at the top of the object hierarchy, it is assumed. In the case where a method is shared by the window object and another object,
+      omitting it asserts the assumption that it is beinginvoked on the window object. 
+
+  Most of the time, the containment structure is obvious. 
 
 Now let's  take a look at the DOM structure
 
-# Function
-A function is a subprogram designed to perform a particular task. A function will only execute if and only when it has been called (invoking a function). Values can be passed into functions and used within that function as well. All functions have a return value, otherwise they become undefined (value is unknown). Most importantly, you must know that a function is an object (an HTML element, with properties and methods.
+## Function:
+
+A function is a subprogram designed to perform a particular task. A function will only execute if and only when 
+it has been called (invoking a function). Values can be passed into functions and used within that function as well. 
+All functions have a return value, otherwise they become undefined (value is unknown). Most importantly, you must 
+know that a function is an object (an HTML element, with properties and methods.
 
   
 ## The Focus Event (onfocus)
@@ -475,3 +485,6 @@ The following example will highlight the background of text input in yellow colo
 
 ![image](https://github.com/216037150/Introduction-to-HTML-CSS/assets/52372746/63d1603f-7460-40c8-946d-e893ef791655)
 
+
+## Node.js
+# Week 1: Introduction to Node.js
